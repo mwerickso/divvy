@@ -41,12 +41,6 @@ def query_films():
     films = (r.json())['results']
     return films
 
-def query_startship(episode=None):
-    url =""
-    r = requests.get(url = url)
-    starships = r['']
-    return starships
-
 def request_episode():
     message = "Which episode do you want startships listed for? "
     #answer = input(message)
@@ -71,7 +65,7 @@ def sorted_film_titles():
     return choices
 
 def test(args):
-    print("Running tests")
+    print("Yes, normally tests would be written first..")
     return None
 
 def main():
@@ -95,4 +89,3 @@ def main():
 
 if __name__ == '__main__':
     main()
-    
