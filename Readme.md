@@ -9,9 +9,10 @@ These instructions will get you a copy of the project up and running on your loc
 ### Prerequisites
 
 If running the script locally:
-* python3
-* pip3
-* requests
+* Clone the project
+* Python3
+* Pip3
+* Requests
 
 ```
 $ pip3 install requests
@@ -21,6 +22,7 @@ If running container in Docker:
 * Docker
 
 If running using the Helm Chart:
+* Clone the project
 * VirtualBox
 * Kubectl
 * MiniKube
@@ -32,6 +34,7 @@ If running using the Helm Chart:
 Run the script - not providing an episode:
 
 ```
+$ cd path/to/project
 $ python3 starships.py 
 
 Episode List: 
